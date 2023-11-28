@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <label>Enter a first Number</label>
+  <input type="text"  id="num1"><br><br>
+  <label>Enter a second Number</label>
+  <input type="text"  id="num2"><br><br>
+  <button onclick="calculate('add')">Add</button>
+  <button onclick="calculate('div')">Division</button>
+  <button onclick="calculate('sub')">Subsrict</button>
+  <button onclick="calculate('multi')">Multiply</button>
+  <button onclick="calculate('mod')">Modulo</button>
+
+  <h1 id="result"></h1>
+
+  <script>
+    function calculate(operation){
+      var num1 = parseFloat(document.getElementById('num1').value)
+      var num2 = parseFloat(document.getElementById('num2').value)
+      var Result;
+
+      switch(operation){
+        case 'add':
+          Result = num1+num2;
+          document.getElementById('result').innerHTML = `Addition is  ${Result}`;
+          break;
+
+          case 'div':
+          Result = num1/num2;
+          document.getElementById('result').innerHTML = `Division is  ${Result}`;
+          break;
+
+          case 'sub':
+          Result = num1-num2;
+          document.getElementById('result').innerHTML =`Subtract is  ${Result}`;
+          break;
+
+          case 'multi':
+          Result = num1*num2;
+          document.getElementById('result').innerHTML =`Multiply is  ${Result}`;
+          break;
+
+          case 'mod':
+          Result = num1%num2;
+          document.getElementById('result').innerHTML = `Modulo is  ${Result}`;
+          break;
+      }
+      // document.getElementById('result').innerHTML = Result;
+    }
+  </script>
+</body>
+</html>

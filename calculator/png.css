@@ -1,0 +1,62 @@
+.bd
+{
+    border: solid;
+    width: 500px;
+    height: 500px;
+    margin-top: 125px;
+    margin-left: 350px;
+    background-color: darksalmon;
+}
+.div1
+{
+    margin: 10px;
+    margin-left: 58px;
+    margin-right: 300px;
+}
+.bn
+{
+
+    width: 400px;
+    height: 30px;
+    border: solid;
+    background-color: aquamarine;
+     
+}
+.bn1
+{
+    width: 80px;
+    height: 40px;
+}
+.mrg
+{
+    
+    margin-left: 58px;
+
+}
+#bnmrg
+{
+    margin:8px;
+    border: solid;
+    background-color: aquamarine;
+
+}
+.div2
+{
+    margin-left: 55px;
+    margin-top: 250px;
+    
+}
+#bnmrg:hover
+{
+    background-color: blueviolet;
+}
+.rm
+{
+    width: 400px;
+    height: 40px;
+    border: solid;
+    background-color: aquamarine; 
+    margin-top: 20px;  
+}
+
+

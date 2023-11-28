@@ -1,0 +1,86 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <link rel="stylesheet" href="png.css" />
+    <body>
+        <div class="bd">
+            <div class="div1">
+        <h4 >
+        <input type="text" id="num1" class="bn">
+        </h4>
+        </div>
+        <div class="div1">
+        <h4>
+<input type="text" id="num2"class="bn">
+        </h4>
+        </div>
+        <div class="div2">
+        <button onclick="calculate('add')" class="bn1" id="bnmrg">
+            <b>Add</b>
+            </button>
+            <button  onclick="calculate('sub')" class="bn1" id="bnmrg">
+                <b>sub</b>
+                </button>
+                <button    onclick="calculate('multi')" class="bn1" id="bnmrg">
+                    <b>Multi</b>
+                    </button>
+                    <button   onclick="calculate('div')"class="bn1" id="bnmrg">
+                        <b>Div</b>
+                        </button>
+        </div>
+        <div class="mrg">
+<button id="result" class="rm">Result</button>
+ 
+ 
+  
+ 
+            
+            </div>
+            </div>
+            
+
+ 
+    
+            <script>
+                function calculate(operation){
+                  var num1 = parseFloat(document.getElementById('num1').value)
+                  var num2 = parseFloat(document.getElementById('num2').value)
+                  var Result;
+            
+                  switch(operation){
+                    case 'add':
+                      Result = num1+num2;
+                      document.getElementById('result').innerHTML = `Addition is  ${Result}`;
+                      break;
+            
+                      case 'div':
+                      Result = num1/num2;
+                      document.getElementById('result').innerHTML = `Division is  ${Result}`;
+                      break;
+            
+                      case 'sub':
+                      Result = num1-num2;
+                      document.getElementById('result').innerHTML =`Subtract is  ${Result}`;
+                      break;
+            
+                      case 'multi':
+                      Result = num1*num2;
+                      document.getElementById('result').innerHTML =`Multiply is  ${Result}`;
+                      break;
+            
+                      case 'mod':
+                      Result = num1%num2;
+                      document.getElementById('result').innerHTML = `Modulo is  ${Result}`;
+                      break;
+                  }
+                  // document.getElementById('result').innerHTML = Result;
+                }
+              </script>
+        
+
+</body>
+</html>
