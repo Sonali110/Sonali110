@@ -1,0 +1,220 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  box-sizing: border-box;
+}
+.item-container{
+  width: 250px;
+}
+.item-img{
+  width: 100%; 
+}
+.rating{
+  font-size: 12px;
+  font-weight: 700;
+}
+.company-name{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+  color: #282c3f;
+  margin-bottom: 6px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-top: 15px;
+}
+.item-name{
+  color: #535766;
+  font-size: 14px;
+  line-height: 1;
+  margin-bottom: 0;
+  margin-top: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 400;
+  display: block;
+}
+.price{
+  font-size: 14px;
+  line-height: 15px;
+  color: #283c3f;
+  white-space: nowrap;
+  margin-top:10px ;
+}
+.current-price{
+  font-size: 14px;
+  font-weight: 700;
+  color: #282c3f;
+}
+.original-price{
+  text-decoration: line-through;
+  color: #7e818c;
+  font-weight: 400;
+  margin-left: 5px;
+  font-size: 12px;
+}
+.discount{
+  color: #ff905a;
+  font-weight: 400;
+  font-size: 12px;
+  margin-left: 5px;
+}
+.btn-add-bag{
+  background-color: lightgreen;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+  .items-container{
+    width: 80%;
+    margin: 50px 10%;
+    margin-top:150px ; 
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;  
+}
+
+
+.item-container
+{
+  width: 250px;
+  margin: 10px;
+}
+.header
+{
+  display: flex;
+  justify-content:space-around
+}
+.containt
+{
+  margin-top: 15px;
+  margin-left: 20px;
+
+}
+.bold
+{
+  margin-right: 20px;
+}
+.search
+{
+  border: solid;
+  border-color: black;
+  height: 30px;
+  width: 350px;
+  margin-right:15px;
+  margin-top:15Px ;
+  
+  
+}
+.search2
+{
+  border: none;
+  border-color:white;
+  outline: none;
+  margin-left: 2px;
+}
+.img1
+{
+  margin-right:5px;
+  margin-top: 15px;
+}
+.img2
+{
+  margin-right:5px ;
+  margin-top: 15px;
+}
+.img3
+{
+  margin-right: 50px;
+  margin-top: 15px;
+}
+.logo
+{
+  margin-left: 50px;
+}
+.lable
+{
+  
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+.div2
+{
+  display: flex;
+  margin-left: 1200px;
+  font-size: 15px;
+  color: black;
+}
+.mrg1
+{
+  margin-left: 48px;
+  margin-top: -22px;
+}
+.mrg2
+{
+  margin-left: 42px;
+  margin-top: -22px;
+}
+.mrg3{
+  margin-left: 38px;
+  margin-top: -22px;
+}
+.footer
+{
+
+margin-right: 200px;
+margin-left: -400px;
+}
+.footer2
+{
+  margin-right: 300px;
+  margin-left: -500px;
+}
+.head
+{
+  margin-top:15px;
+}
+.lb
+{
+  margin-top:8px;
+}
+#h3
+{
+   border: solid;
+   width: 400px;
+   height: 250px;
+   border-left:none;
+   border-top: none;
+   border-bottom: none;
+}
+.doll
+{
+  margin-left:500px;
+  margin-right: -350px;
+  margin-top: -250px; 
+}
+   
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
